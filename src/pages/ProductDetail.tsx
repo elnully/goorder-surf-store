@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
@@ -78,7 +77,7 @@ const productData = {
       rating: 4,
       date: '2023-02-28',
       title: 'Great for workouts',
-      comment: 'I use these during my daily runs, and they stay in place perfectly. The battery life is excellent, and they're comfortable for long periods.',
+      comment: 'I use these during my daily runs, and they stay in place perfectly. The battery life is excellent, and they\'re comfortable for long periods.',
     },
     {
       id: 3,
